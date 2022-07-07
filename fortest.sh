@@ -32,15 +32,20 @@ done
 # fifth for loop: 
 
 echo "======== Fifth for loop: (for i in seq 100 10 60 ) ======== "
-for i in `seq 100 10 160`; do
+for i in $(seq 100 10 160); do
 	echo $i
 done
 
 # sixth for loop:
 
-echo "======== Sixth for loop: (for i in seq -w 15 ) ======== "
-for i in `seq -w 15`;do 
+echo "======== Sixth for loop: (for i in \$(seq -w 15)) ======== "
+for i in $(seq -w 15);do 
 	echo $i
+done
+
+echo "======== Seventh for loop: (for i in \$(seq 2 8) ======== "
+for i in $(seq 2 8); do
+	echo $i;
 done
 
 exit 0
