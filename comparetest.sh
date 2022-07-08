@@ -42,5 +42,19 @@ else
 	echo "${STR1} and ${STR2} are different"
 fi	
 
+unset STR1
+unset STR2
+
+# compare two strings
+echo "Compare two strings"
+echo "Type two words to compare: "
+read STR1 STR2
+
+if [ "$STR1" \> "$STR2" ]; then
+	echo "${STR1} is greater than ${STR2}"
+else
+	echo "${STR2} is greater than ${STR1}"
+fi	
+
 
 exit 0
