@@ -1,7 +1,13 @@
-## Bash Shell Script
+# Bash Shell Script
 
-# A collection of shell scripts that are frequently used.
-# Examples include: 
+------
+
+### Why shell script? 
+Because shell scripts can automate many tasks that are done in server.
+
+### What are the contents? 
+This repository contains a collection of frequently used shell scripts.
+Examples include: 
 
 - echoing message
 - for and while loops
