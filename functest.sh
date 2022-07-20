@@ -8,6 +8,7 @@ function funcCheck()
 returningValue="I love Linux"
 echo $returningValue
 
+# calling function updates the value of the variable
 funcCheck
 echo $returningValue
 
